@@ -42,7 +42,7 @@ export default function NavBar() {
             <DrawerContent>
                 <div className="mx-auto w-full p-4">
                 <div className="p-4 pb-0">
-                    <div className="flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 mb-2">
                         <Link href="#features" className="text-lg font-medium hover:text-primary">
                             Features
                         </Link>

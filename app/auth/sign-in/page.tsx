@@ -1,6 +1,7 @@
 import React from 'react'
 import SignIn from '@/components/auth/sign-in'
 import Link from 'next/link'
+
 export default function Page() {
   return (
     <div className='w-screen h-screen flex items-center justify-center'>
@@ -11,8 +12,9 @@ export default function Page() {
 
       </div>
       <div className='w-full md:w-1/2 md:mr-5'>
-        <SignIn></SignIn>
+        <SignIn ></SignIn>
       </div>
     </div>
   )
 }
+
